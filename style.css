@@ -1,0 +1,78 @@
+
+/* .nav-link{
+    background-color:  rgb(170, 205, 240);
+    color: black;
+    font-size: 20px;
+    padding: ;
+}
+
+
+
+nav{
+    background-color: rgb(170, 205, 240);
+    
+}
+
+ h1{
+    text-align: center;
+    color: darkgreen;
+    font-size: 30px;
+    padding: 30px;
+    font-family: cursive;
+} 
+
+p{
+    font-size: 30px;
+
+} */
+body{
+    background-color: #ccc;
+}
+#header .a:hover{
+    color: blue;
+
+}
+.navbar{
+    background-color: rgb(3, 31, 59);
+    
+}
+h2{
+    color: tomato;
+
+}
+.navbar-toggler-icon{
+    color: tomato;
+}
+#bg-img{
+    background: url('img/bg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+ul{
+    margin-left: 10px;
+}
+#About{
+    margin-top:-200px;
+    
+    
+}
+#About .fab {
+    color: white;
+
+}
+#About .fas {
+    color: white;
+
+}
+
+
+.cardfooter {
+    color: white;
+}
+#About span{
+    padding:20px;
+}
+/* .table {
+    background-color: rgb(17, 175, 223);
+} */
