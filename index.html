@@ -1,64 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 </head>
+
 <body>
+  <!-- Header of the portfolio uses Navbar to display the options About and Projects -->
   <div id="Header">
     <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color:#067f8f">
-       <div class="container"> 
+      <div class="container">
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-  
+
         <a href="#" class="navbar-brand">
           <h2>Portfolio</h2>
         </a>
         <div class="collapse navbar-collapse" id="navbar">
           <ul class="navbar-nav ml-auto">
+            <!-- About option will show the detail about myself in the portfolio -->
             <li class="nav-item">
-              <a class="nav-link" href="#About" class="nav-link">About</a>
+              <a class="nav-link" href="#About" class="nav-link" style="color: white">About</a>
             </li>
+            <!-- Project option will show the detail about the project completed in the course -->
             <li class="nav-item">
-              <a class="nav-link" href="#Projects" class="nav-link">Projects</a>
+              <a class="nav-link" href="#Projects" class="nav-link" style="color: white">Projects</a>
             </li>
           </ul>
         </div>
       </div>
-      </nav>
+    </nav>
   </div>
   <div id="bg-img"></div>
-
+  <!-- About option display the detail about myself, links to Github, linkedin and Resume -->
   <div id="About">
-      <div class="container p-0">
+    <div class="container p-0">
       <div class="row frontdiv">
         <div class="col">
           <div id="AboutMe">
             <div class="card bg-white">
               <div class="card-title my-5">
-                <div class="media ">
-                  <img src="img/about.jpeg"  width="250" height="250" class="rounded-circle mx-5 d-none d-lg-block">
+                <div class="media">
+                  <img src="img/about.jpeg" width="250" height="250" class="rounded-circle mx-5 d-none d-lg-block ">
                   <div class="Media-body">
                     <h3 class="display-6 mr-5">Gayathiri Ramamoorthy</h3>
-                    <p class ="text-muted mr-5">Full-Stack Web Developer</p>
-                    <div class="container mr-5 p-0"> 
+                    <p class="text-muted mr-5">Full-Stack Web Developer</p>
+                    <div class="container mr-5 p-0">
                       <table class="table table-responsive ">
                         <tr>
                           <td>Phone</td>
@@ -71,37 +67,43 @@
                           <td>rgayathiri2001@yahoo.com</td>
                         </tr>
                       </table>
-                    </div> 
+                    </div>
                   </div>
-                </div>               
+                </div>
               </div>
               <div class="card-footer bg-info">
                 <div>
                   <h3 class="text-white">Links:</h3>
                   <div class="row">
                     <div class="col d-flex justify-content-center">
-                <a href="https://github.com/mathigayathri2001" ><i class="fab fa-github fa-2x mx-1"></i>
-                  <span class="text-white">Github</span></a>
-                <a href="https://www.linkedin.com/in/gayathiri-ramamoorthy-72885359/" ><i class="fab fa-linkedin fa-2x mx-1"></i><span class="text-white">Linkedin</span></a>
-                <a href="https://drive.google.com/open?id=1bFWTdos7EdQm6bkMCDZMXadreRj8eN1J" ><i class="fas fa-file-pdf fa-2x mx-1"></i> <span class="text-white">Resume</span></a></div>
-                </div>
+                      <a href="https://github.com/mathigayathri2001"><i class="fab fa-github fa-2x mx-1"></i>
+                        <span class="text-white mr-5 ">Github</span></a>
+                      <a href="https://www.linkedin.com/in/gayathiri-ramamoorthy-72885359/"><i
+                          class="fab fa-linkedin fa-2x mx-1"></i><span class="text-white mr-5">Linkedin</span></a>
+                      <a href="https://drive.google.com/open?id=1bFWTdos7EdQm6bkMCDZMXadreRj8eN1J"><i
+                          class="fas fa-file-pdf fa-2x mx-1"></i> <span class="text-white mr-5">Resume</span></a></div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>      
+          </div>
         </div>
       </div>
-     </div> 
+    </div>
     <div class="container mt-5">
       <div class="row">
         <div class="col">
-          <span class="bg-info text-white">About Me</span><hr class="bg-info">
-          <p>Currently pursing Web development certification course in Carleton University. Strong exposure to full stack Web development technology, aquired skills to plan, track, manage projects in agile development environment and deploy applications in the landscapes.</p>
+          <span class=" intro bg-info text-white">About Me</span>
+          <hr class="bg-info">
+          <p>My name is Gayathiri Ramamoorthy. I have completed Bachelor degree in Commerce. Working as self employed
+            accounting clerk. Currently pursing coding Boot Camp in Carleton University. I am learning valuable
+            programming skills in full stack Web development technology, aquired skills to plan, track, manage projects
+            in agile development environment and deploy applications in the landscapes.</p>
         </div>
-      </div> 
-    </div>          
+      </div>
+    </div>
   </div>
-         
+  <!-- Project option display the detail about Project assignment and homework assignment completed -->
   <section class="container">
     <div class="row">
       <div class="col mt-4 card">
@@ -160,14 +162,20 @@
                 </p>
               </div>
             </div>
-
           </section>
         </div>
       </div>
     </div>
-  </section> 
-  
-  
+  </section>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 </body>
-</html>
 
+</html>
