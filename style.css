@@ -2,6 +2,7 @@
 body{
     background-color: #ccc;
 }
+
 #Header a:hover{
     background-color: rgb(48, 67, 133);
 
@@ -25,6 +26,9 @@ ul{
     margin-top:-200px;
     
     
+}
+.team{
+    background-color: #ccc;
 }
 #About .fab {
     color: white;
